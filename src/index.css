@@ -32,6 +32,10 @@ body {
   font-weight: 400;
   line-height: 1.6;
 }
+main {
+  margin: 0!important;
+  height: 100vh!important;
+}
 
 label {
   font-size: 1.6rem;
