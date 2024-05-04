@@ -7,7 +7,6 @@ import Login from './pages/Login';
 import ProtectedRoute from './pages/ProtectedRoute';
 import AppLayout from './pages/AppLayout';
 import PageNotFound from './pages/PageNotFound';
-import CitiesProvider from './contexts';
 
 
 import CityList from "./components/CityList";
@@ -15,6 +14,7 @@ import CountryList from "./components/CountryList";
 import City from "./components/City";
 import { AuthProvider } from './contexts/FakeAuthContext';
 import Form from "./components/Form";
+import { CitiesProvider } from './contexts/CityContext';
 
 
 function App() {

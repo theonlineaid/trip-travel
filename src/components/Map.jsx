@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 import { useGeolocation } from "../hooks/useGeolocation";
 import { useUrlPosition } from "../hooks/useUrlPosition";
 import Button from "./Button";
-import { useCities } from "../contexts";
+import { useCities } from "../contexts/CityContext";
 
 function Map() {
   const { cities } = useCities();

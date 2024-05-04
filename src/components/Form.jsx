@@ -12,7 +12,7 @@ import { useUrlPosition } from "../hooks/useUrlPosition";
 import Message from "./Message";
 import Spinner from "./Spinner";
 import { useNavigate } from "react-router-dom";
-import { useCities } from "../contexts";
+import { useCities } from "../contexts/CityContext";
 
 export function convertToEmoji(countryCode) {
   const codePoints = countryCode
